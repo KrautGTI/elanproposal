@@ -1,0 +1,33 @@
+var _path, _path2;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgHouseCheck(props, svgRef) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "Group_3403",
+    "data-name": "Group 3403",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 62.163,
+    height: 62.091,
+    viewBox: "0 0 62.163 62.091",
+    ref: svgRef
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    id: "Path_3407",
+    "data-name": "Path 3407",
+    d: "M3078.746,2256.587h-48.32a3.452,3.452,0,0,1-3.45-3.449v-28.614l-.515.505a1.725,1.725,0,1,1-2.462-2.417l.039-.037,26.914-26.594a5.2,5.2,0,0,1,7.278,0l26.906,26.594a1.724,1.724,0,1,1-2.387,2.49l-.037-.036-.515-.51v28.621A3.451,3.451,0,0,1,3078.746,2256.587Zm-48.32-35.477v32.03h48.32v-32.03l-22.944-22.674a1.73,1.73,0,0,0-2.424,0Z",
+    transform: "translate(-3023.506 -2194.497)",
+    fill: "#52afce"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    id: "Path_3340",
+    "data-name": "Path 3340",
+    d: "M3040.9,2225.116a1.726,1.726,0,0,1-1.221-.5l-8.624-8.629a1.726,1.726,0,0,1,2.44-2.44l7.4,7.408,14.34-14.352a1.727,1.727,0,0,1,2.507,2.377l-.068.066-15.559,15.568a1.714,1.714,0,0,1-1.219.507",
+    transform: "translate(-3013.325 -2177.87)",
+    fill: "#52afce"
+  })));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgHouseCheck);
+export default "data:image/svg+xml;base64,PHN2ZyBpZD0iR3JvdXBfMzQwMyIgZGF0YS1uYW1lPSJHcm91cCAzNDAzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2Mi4xNjMiIGhlaWdodD0iNjIuMDkxIiB2aWV3Qm94PSIwIDAgNjIuMTYzIDYyLjA5MSI+CiAgPHBhdGggaWQ9IlBhdGhfMzQwNyIgZGF0YS1uYW1lPSJQYXRoIDM0MDciIGQ9Ik0zMDc4Ljc0NiwyMjU2LjU4N2gtNDguMzJhMy40NTIsMy40NTIsMCwwLDEtMy40NS0zLjQ0OXYtMjguNjE0bC0uNTE1LjUwNWExLjcyNSwxLjcyNSwwLDEsMS0yLjQ2Mi0yLjQxN2wuMDM5LS4wMzcsMjYuOTE0LTI2LjU5NGE1LjIsNS4yLDAsMCwxLDcuMjc4LDBsMjYuOTA2LDI2LjU5NGExLjcyNCwxLjcyNCwwLDEsMS0yLjM4NywyLjQ5bC0uMDM3LS4wMzYtLjUxNS0uNTF2MjguNjIxQTMuNDUxLDMuNDUxLDAsMCwxLDMwNzguNzQ2LDIyNTYuNTg3Wm0tNDguMzItMzUuNDc3djMyLjAzaDQ4LjMydi0zMi4wM2wtMjIuOTQ0LTIyLjY3NGExLjczLDEuNzMsMCwwLDAtMi40MjQsMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMDIzLjUwNiAtMjE5NC40OTcpIiBmaWxsPSIjNTJhZmNlIi8+CiAgPHBhdGggaWQ9IlBhdGhfMzM0MCIgZGF0YS1uYW1lPSJQYXRoIDMzNDAiIGQ9Ik0zMDQwLjksMjIyNS4xMTZhMS43MjYsMS43MjYsMCwwLDEtMS4yMjEtLjVsLTguNjI0LTguNjI5YTEuNzI2LDEuNzI2LDAsMCwxLDIuNDQtMi40NGw3LjQsNy40MDgsMTQuMzQtMTQuMzUyYTEuNzI3LDEuNzI3LDAsMCwxLDIuNTA3LDIuMzc3bC0uMDY4LjA2Ni0xNS41NTksMTUuNTY4YTEuNzE0LDEuNzE0LDAsMCwxLTEuMjE5LjUwNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMwMTMuMzI1IC0yMTc3Ljg3KSIgZmlsbD0iIzUyYWZjZSIvPgo8L3N2Zz4K";
+export { ForwardRef as ReactComponent };

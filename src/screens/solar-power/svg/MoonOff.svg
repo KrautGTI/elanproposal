@@ -1,0 +1,51 @@
+var _defs, _g;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgMoonOff(props, svgRef) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 63.875,
+    height: 63.875,
+    ref: svgRef
+  }, props), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("style", null, ".d{fill:#95a1ac;opacity:.29}"))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    opacity: 0.609
+  }, /*#__PURE__*/React.createElement("circle", {
+    cx: 31.938,
+    cy: 31.938,
+    r: 31.938,
+    fill: "#d8d8d8",
+    opacity: 0.6
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M19.14 31.938A31.953 31.953 0 0141.51 1.459a31.938 31.938 0 100 60.957 31.953 31.953 0 01-22.37-30.478z",
+    opacity: 0.11,
+    fill: "#95a1ac"
+  }), /*#__PURE__*/React.createElement("path", {
+    className: "d",
+    d: "M63.869 32.471a31.79 31.79 0 01-2.971 12.951 6.728 6.728 0 012.521-12.966c.151 0 .3.006.45.015zM31.937 58.869a5.966 5.966 0 015.779 4.484 32.07 32.07 0 01-5.779.522 32.07 32.07 0 01-5.779-.522 5.966 5.966 0 015.779-4.484zM39.65 44.621a3.895 3.895 0 11-3.9 3.895 3.9 3.9 0 013.9-3.895z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    className: "d",
+    cx: 2.754,
+    cy: 2.754,
+    r: 2.754,
+    transform: "translate(43.953 35.525)"
+  }), /*#__PURE__*/React.createElement("circle", {
+    className: "d",
+    cx: 7.411,
+    cy: 7.411,
+    r: 7.411,
+    transform: "translate(33.364 16.127)"
+  }), /*#__PURE__*/React.createElement("path", {
+    className: "d",
+    d: "M19.14 33.954a4.266 4.266 0 11-4.266 4.266 4.266 4.266 0 014.266-4.266z"
+  }), /*#__PURE__*/React.createElement("path", {
+    className: "d",
+    d: "M19.14 42.486a4.251 4.251 0 001.667-.338 31.805 31.805 0 01-1.604-8.194h-.063a4.266 4.266 0 000 8.532zM11.219 24.713a2.6 2.6 0 11-2.6 2.6 2.6 2.6 0 012.6-2.6zM22.359 1.462a12.767 12.767 0 01-12.317 16.11 12.716 12.716 0 01-5.87-1.427A32.021 32.021 0 0122.359 1.462z"
+  }))));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgMoonOff);
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2My44NzUiIGhlaWdodD0iNjMuODc1Ij48ZGVmcz48c3R5bGU+LmR7ZmlsbDojOTVhMWFjO29wYWNpdHk6LjI5fTwvc3R5bGU+PC9kZWZzPjxnIG9wYWNpdHk9Ii42MDkiPjxjaXJjbGUgY3g9IjMxLjkzOCIgY3k9IjMxLjkzOCIgcj0iMzEuOTM4IiBmaWxsPSIjZDhkOGQ4IiBvcGFjaXR5PSIuNiIvPjxwYXRoIGQ9Ik0xOS4xNCAzMS45MzhBMzEuOTUzIDMxLjk1MyAwIDAxNDEuNTEgMS40NTlhMzEuOTM4IDMxLjkzOCAwIDEwMCA2MC45NTcgMzEuOTUzIDMxLjk1MyAwIDAxLTIyLjM3LTMwLjQ3OHoiIG9wYWNpdHk9Ii4xMSIgZmlsbD0iIzk1YTFhYyIvPjxwYXRoIGNsYXNzPSJkIiBkPSJNNjMuODY5IDMyLjQ3MWEzMS43OSAzMS43OSAwIDAxLTIuOTcxIDEyLjk1MSA2LjcyOCA2LjcyOCAwIDAxMi41MjEtMTIuOTY2Yy4xNTEgMCAuMy4wMDYuNDUuMDE1ek0zMS45MzcgNTguODY5YTUuOTY2IDUuOTY2IDAgMDE1Ljc3OSA0LjQ4NCAzMi4wNyAzMi4wNyAwIDAxLTUuNzc5LjUyMiAzMi4wNyAzMi4wNyAwIDAxLTUuNzc5LS41MjIgNS45NjYgNS45NjYgMCAwMTUuNzc5LTQuNDg0ek0zOS42NSA0NC42MjFhMy44OTUgMy44OTUgMCAxMS0zLjkgMy44OTUgMy45IDMuOSAwIDAxMy45LTMuODk1eiIvPjxjaXJjbGUgY2xhc3M9ImQiIGN4PSIyLjc1NCIgY3k9IjIuNzU0IiByPSIyLjc1NCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDMuOTUzIDM1LjUyNSkiLz48Y2lyY2xlIGNsYXNzPSJkIiBjeD0iNy40MTEiIGN5PSI3LjQxMSIgcj0iNy40MTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMzLjM2NCAxNi4xMjcpIi8+PHBhdGggY2xhc3M9ImQiIGQ9Ik0xOS4xNCAzMy45NTRhNC4yNjYgNC4yNjYgMCAxMS00LjI2NiA0LjI2NiA0LjI2NiA0LjI2NiAwIDAxNC4yNjYtNC4yNjZ6Ii8+PHBhdGggY2xhc3M9ImQiIGQ9Ik0xOS4xNCA0Mi40ODZhNC4yNTEgNC4yNTEgMCAwMDEuNjY3LS4zMzggMzEuODA1IDMxLjgwNSAwIDAxLTEuNjA0LTguMTk0aC0uMDYzYTQuMjY2IDQuMjY2IDAgMDAwIDguNTMyek0xMS4yMTkgMjQuNzEzYTIuNiAyLjYgMCAxMS0yLjYgMi42IDIuNiAyLjYgMCAwMTIuNi0yLjZ6TTIyLjM1OSAxLjQ2MmExMi43NjcgMTIuNzY3IDAgMDEtMTIuMzE3IDE2LjExIDEyLjcxNiAxMi43MTYgMCAwMS01Ljg3LTEuNDI3QTMyLjAyMSAzMi4wMjEgMCAwMTIyLjM1OSAxLjQ2MnoiLz48L2c+PC9zdmc+";
+export { ForwardRef as ReactComponent };

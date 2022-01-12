@@ -1,0 +1,50 @@
+var _defs, _path, _path2, _path3, _circle, _circle2, _path4, _path5, _path6;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgMoonOn(props, svgRef) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 63.875,
+    height: 63.875,
+    ref: svgRef
+  }, props), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("style", null, ".b,.c{fill:#fff}.b{opacity:.3}.c{opacity:.8}"))), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M31.938 0A31.938 31.938 0 110 31.938 31.938 31.938 0 0131.938 0z",
+    fill: "#d8d8d8",
+    opacity: 0.6
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    className: "b",
+    d: "M19.14 31.938A31.953 31.953 0 0141.51 1.459a31.938 31.938 0 100 60.957 31.953 31.953 0 01-22.37-30.478z"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    className: "c",
+    d: "M63.869 32.471a31.79 31.79 0 01-2.971 12.951 6.728 6.728 0 012.521-12.966c.151 0 .3.006.45.015zM31.937 58.869a5.966 5.966 0 015.779 4.484 32.07 32.07 0 01-5.779.522 32.07 32.07 0 01-5.779-.522 5.966 5.966 0 015.779-4.484zM39.65 44.621a3.895 3.895 0 11-3.9 3.895 3.9 3.9 0 013.9-3.895z"
+  })), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    className: "c",
+    cx: 2.754,
+    cy: 2.754,
+    r: 2.754,
+    transform: "translate(43.953 35.525)"
+  })), _circle2 || (_circle2 = /*#__PURE__*/React.createElement("circle", {
+    className: "c",
+    cx: 7.411,
+    cy: 7.411,
+    r: 7.411,
+    transform: "translate(33.364 16.127)"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    className: "b",
+    d: "M19.14 33.954a4.266 4.266 0 11-4.266 4.266 4.266 4.266 0 014.266-4.266z"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M19.14 42.486a4.251 4.251 0 001.667-.338 31.805 31.805 0 01-1.604-8.194h-.063a4.266 4.266 0 000 8.532z",
+    opacity: 0.29,
+    fill: "#fff"
+  })), _path6 || (_path6 = /*#__PURE__*/React.createElement("path", {
+    className: "c",
+    d: "M11.219 24.713a2.6 2.6 0 11-2.6 2.6 2.6 2.6 0 012.6-2.6zM22.359 1.462a12.767 12.767 0 01-12.317 16.11 12.716 12.716 0 01-5.87-1.427A32.021 32.021 0 0122.359 1.462z"
+  })));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgMoonOn);
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2My44NzUiIGhlaWdodD0iNjMuODc1Ij48ZGVmcz48c3R5bGU+LmIsLmN7ZmlsbDojZmZmfS5ie29wYWNpdHk6LjN9LmN7b3BhY2l0eTouOH08L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNMzEuOTM4IDBBMzEuOTM4IDMxLjkzOCAwIDExMCAzMS45MzggMzEuOTM4IDMxLjkzOCAwIDAxMzEuOTM4IDB6IiBmaWxsPSIjZDhkOGQ4IiBvcGFjaXR5PSIuNiIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNMTkuMTQgMzEuOTM4QTMxLjk1MyAzMS45NTMgMCAwMTQxLjUxIDEuNDU5YTMxLjkzOCAzMS45MzggMCAxMDAgNjAuOTU3IDMxLjk1MyAzMS45NTMgMCAwMS0yMi4zNy0zMC40Nzh6Ii8+PHBhdGggY2xhc3M9ImMiIGQ9Ik02My44NjkgMzIuNDcxYTMxLjc5IDMxLjc5IDAgMDEtMi45NzEgMTIuOTUxIDYuNzI4IDYuNzI4IDAgMDEyLjUyMS0xMi45NjZjLjE1MSAwIC4zLjAwNi40NS4wMTV6TTMxLjkzNyA1OC44NjlhNS45NjYgNS45NjYgMCAwMTUuNzc5IDQuNDg0IDMyLjA3IDMyLjA3IDAgMDEtNS43NzkuNTIyIDMyLjA3IDMyLjA3IDAgMDEtNS43NzktLjUyMiA1Ljk2NiA1Ljk2NiAwIDAxNS43NzktNC40ODR6TTM5LjY1IDQ0LjYyMWEzLjg5NSAzLjg5NSAwIDExLTMuOSAzLjg5NSAzLjkgMy45IDAgMDEzLjktMy44OTV6Ii8+PGNpcmNsZSBjbGFzcz0iYyIgY3g9IjIuNzU0IiBjeT0iMi43NTQiIHI9IjIuNzU0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0My45NTMgMzUuNTI1KSIvPjxjaXJjbGUgY2xhc3M9ImMiIGN4PSI3LjQxMSIgY3k9IjcuNDExIiByPSI3LjQxMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzMuMzY0IDE2LjEyNykiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTE5LjE0IDMzLjk1NGE0LjI2NiA0LjI2NiAwIDExLTQuMjY2IDQuMjY2IDQuMjY2IDQuMjY2IDAgMDE0LjI2Ni00LjI2NnoiLz48cGF0aCBkPSJNMTkuMTQgNDIuNDg2YTQuMjUxIDQuMjUxIDAgMDAxLjY2Ny0uMzM4IDMxLjgwNSAzMS44MDUgMCAwMS0xLjYwNC04LjE5NGgtLjA2M2E0LjI2NiA0LjI2NiAwIDAwMCA4LjUzMnoiIG9wYWNpdHk9Ii4yOSIgZmlsbD0iI2ZmZiIvPjxwYXRoIGNsYXNzPSJjIiBkPSJNMTEuMjE5IDI0LjcxM2EyLjYgMi42IDAgMTEtMi42IDIuNiAyLjYgMi42IDAgMDEyLjYtMi42ek0yMi4zNTkgMS40NjJhMTIuNzY3IDEyLjc2NyAwIDAxLTEyLjMxNyAxNi4xMSAxMi43MTYgMTIuNzE2IDAgMDEtNS44Ny0xLjQyN0EzMi4wMjEgMzIuMDIxIDAgMDEyMi4zNTkgMS40NjJ6Ii8+PC9zdmc+";
+export { ForwardRef as ReactComponent };

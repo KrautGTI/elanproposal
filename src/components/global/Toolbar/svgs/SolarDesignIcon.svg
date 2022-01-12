@@ -1,0 +1,40 @@
+var _g;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgSolarDesignIcon(props, svgRef) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 18,
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef
+  }, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "styleGuide",
+    stroke: "none",
+    strokeWidth: 1,
+    fill: "none",
+    fillRule: "evenodd"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "colors-copy",
+    transform: "translate(-1151 -1502)",
+    fill: "currentColor"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "btn_Center-Copy",
+    transform: "translate(1141 1491.071)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "Group",
+    transform: "translate(10 10)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "_UI-Icons-/solarPanel",
+    transform: "translate(0 1.667)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M15.423.208l3.833 9.584h-8.631v5.416h4.167v1.25H5.208v-1.25h4.167V9.791H.744L4.577.209h10.846zM2.59 8.542h6.786V5.623h-5.62L2.59 8.542zm13.654-2.918h-5.618v2.917h6.785l-1.167-2.917zm-.5-1.25l-1.166-2.916h-3.952v2.916h5.118zM9.375 1.458H5.423L4.256 4.374h5.119V1.458z",
+    id: "Combined-Shape"
+  }))))))));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgSolarDesignIcon);
+export default "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9InN0eWxlR3VpZGUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGlkPSJjb2xvcnMtY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExNTEgLTE1MDIpIiBmaWxsPSJjdXJyZW50Q29sb3IiPjxnIGlkPSJidG5fQ2VudGVyLUNvcHkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDExNDEgMTQ5MS4wNzEpIj48ZyBpZD0iR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwIDEwKSI+PGcgaWQ9Il9VSS1JY29ucy0vc29sYXJQYW5lbCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAxLjY2NykiPjxwYXRoIGQ9Ik0xNS40MjMuMjA4bDMuODMzIDkuNTg0aC04LjYzMXY1LjQxNmg0LjE2N3YxLjI1SDUuMjA4di0xLjI1aDQuMTY3VjkuNzkxSC43NDRMNC41NzcuMjA5aDEwLjg0NnpNMi41OSA4LjU0Mmg2Ljc4NlY1LjYyM2gtNS42MkwyLjU5IDguNTQyem0xMy42NTQtMi45MThoLTUuNjE4djIuOTE3aDYuNzg1bC0xLjE2Ny0yLjkxN3ptLS41LTEuMjVsLTEuMTY2LTIuOTE2aC0zLjk1MnYyLjkxNmg1LjExOHpNOS4zNzUgMS40NThINS40MjNMNC4yNTYgNC4zNzRoNS4xMTlWMS40NTh6IiBpZD0iQ29tYmluZWQtU2hhcGUiLz48L2c+PC9nPjwvZz48L2c+PC9nPjwvc3ZnPg==";
+export { ForwardRef as ReactComponent };

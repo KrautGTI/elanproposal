@@ -1,0 +1,22 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgEcoImpactOil(props, svgRef) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 70,
+    height: 71,
+    ref: svgRef
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M61.25 7.955c4.027 0 7.292 3.56 7.292 7.954v50.91c0 .878-.653 1.59-1.459 1.59h-52.5c-.805 0-1.458-.712-1.458-1.59V28.635c0-.422.154-.826.427-1.125l17.5-19.09a1.399 1.399 0 011.031-.466zm0 3.181H32.684L16.042 29.292v35.935h49.583V15.91c0-2.48-1.735-4.52-3.954-4.75l-.421-.023zm-5.833 9.546c.805 0 1.458.712 1.458 1.59 0 .782-.516 1.431-1.196 1.566l-.262.026H40.833c-.805 0-1.458-.713-1.458-1.591 0-.781.516-1.43 1.196-1.566l.262-.025h14.584zM2.917 1.59c6.206 0 10.125 2.477 14.74 8.418.52.67.444 1.675-.171 2.243-.615.568-1.535.484-2.055-.186-4.108-5.289-7.279-7.293-12.514-7.293-.806 0-1.459-.713-1.459-1.591 0-.879.653-1.591 1.459-1.591z"
+  })));
+}
+
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgEcoImpactOil);
+export default "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MSI+CiAgPHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02MS4yNSA3Ljk1NWM0LjAyNyAwIDcuMjkyIDMuNTYgNy4yOTIgNy45NTR2NTAuOTFjMCAuODc4LS42NTMgMS41OS0xLjQ1OSAxLjU5aC01Mi41Yy0uODA1IDAtMS40NTgtLjcxMi0xLjQ1OC0xLjU5VjI4LjYzNWMwLS40MjIuMTU0LS44MjYuNDI3LTEuMTI1bDE3LjUtMTkuMDlhMS4zOTkgMS4zOTkgMCAwMTEuMDMxLS40NjZ6bTAgMy4xODFIMzIuNjg0TDE2LjA0MiAyOS4yOTJ2MzUuOTM1aDQ5LjU4M1YxNS45MWMwLTIuNDgtMS43MzUtNC41Mi0zLjk1NC00Ljc1bC0uNDIxLS4wMjN6bS01LjgzMyA5LjU0NmMuODA1IDAgMS40NTguNzEyIDEuNDU4IDEuNTkgMCAuNzgyLS41MTYgMS40MzEtMS4xOTYgMS41NjZsLS4yNjIuMDI2SDQwLjgzM2MtLjgwNSAwLTEuNDU4LS43MTMtMS40NTgtMS41OTEgMC0uNzgxLjUxNi0xLjQzIDEuMTk2LTEuNTY2bC4yNjItLjAyNWgxNC41ODR6TTIuOTE3IDEuNTljNi4yMDYgMCAxMC4xMjUgMi40NzcgMTQuNzQgOC40MTguNTIuNjcuNDQ0IDEuNjc1LS4xNzEgMi4yNDMtLjYxNS41NjgtMS41MzUuNDg0LTIuMDU1LS4xODYtNC4xMDgtNS4yODktNy4yNzktNy4yOTMtMTIuNTE0LTcuMjkzLS44MDYgMC0xLjQ1OS0uNzEzLTEuNDU5LTEuNTkxIDAtLjg3OS42NTMtMS41OTEgMS40NTktMS41OTF6Ii8+Cjwvc3ZnPgo=";
+export { ForwardRef as ReactComponent };

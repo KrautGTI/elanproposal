@@ -1,0 +1,78 @@
+/**
+  NOTE ON ZINDEX:
+  Slideshow: 1
+  Modal that can be drawn on: 100
+  Draw Overlay: 101
+  Above drawing overlay: 105
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Product Sans;
+    font-weight: 400;
+    src: url(./fonts/ProductSans-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: Product Sans;
+    font-weight: 700;
+    src: url(./fonts/ProductSans-Bold.ttf) format("truetype");
+  }
+
+  /* Set the default deck width and height. Reveal plugin will dynamically change this */
+  :root {
+    --deck-width: 1366;
+    --deck-height: 1024;
+    --deck-scale: 1;
+  }
+
+  html,
+  body,
+  #__next {
+    height: 100%;
+  }
+
+  body {
+    @apply antialiased leading-none m-0 p-0 overflow-hidden;
+    --background-color: rgb(var(--rgb-body-bg));
+  }
+}
+
+@layer components {
+  button {
+    @apply focus:outline-none focus:ring focus:ring-primary focus:ring-opacity-50;
+  }
+
+  .img-fluid {
+    /* Part 1: Set a maximum relative to the parent */
+    max-width: 100%;
+    /* Part 2: Override the height to auto, otherwise images will be stretched */
+    /* when setting a width and height attribute on the img element. */
+    height: auto;
+  }
+
+  button.no-focus-ring:focus {
+    @apply ring-transparent;
+  }
+
+  .notifications {
+    @apply z-notification fixed inset-0 flex items-end px-4 py-6 pointer-events-none sm:p-6 sm:pt-20 sm:items-start;
+
+    &--stack {
+      @apply w-full flex flex-col items-center space-y-4 sm:items-end;
+    }
+  }
+
+  .toolbar-portal {
+    z-index: 105;
+  }
+
+  /* Highcharts default z-index of tooltips to 3x, but we need then to be on top of modals that start at 100 */
+  .highcharts-tooltip-container {
+    z-index: 105 !important;
+  }
+}

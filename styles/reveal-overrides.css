@@ -1,0 +1,30 @@
+#app {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+body,
+#app .reveal-viewport {
+  background-color: var(--background-color);
+}
+
+.reveal .progress {
+  --progress-bar-color: rgb(var(--rgb-primary-light));
+
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  color: var(--progress-bar-color);
+
+  height: 6px;
+  background-color: transparent;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal-viewport {
+  line-height: inherit;
+}
